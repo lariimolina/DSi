@@ -1,0 +1,7 @@
+	La aquirtectura del sistema de Turnero podria ser de microservicios, ya que es una aplicación con funcionalidades bastante sencillas y sin mucha complejidad. 
+	Los servicios que debe brindar son:
+		- Servicio de Turnos: El usuario ingresa con su número de DNI y datos que sean relevantes para solicitar un turno y este se registra.
+		- Servicio de pantalla proyectada: Esta es la indicada de mostrar en la clínica los datos necesarios para guiar a las personas que están presentes, mostrando número de turno, DNI y nombre para que la persona sepa que se trata de su turno, en que box debe presentarse cuando sea su turno y si el turno fue atenido (el estado del mismo).
+		- El sistema que los/as secretarios/as ven en sus pantallas que le permiten modificar el estado de los turnos y corroborar la información de las personas que se acercas.
+
+	Este tipo de arquitectura es bastante conveniente porque cada servicio tiene una funcionalidad distinta pero bastante facil de mantener.
